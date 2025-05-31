@@ -10,7 +10,7 @@ class ImageFetcherController extends GetxController {
   final TextEditingController descriptionController = TextEditingController();
   final int imagesPerPage = 30; // Set to 50 images
   final String unsplashAccessKey =
-      '';
+      'ANG437nDwzh5-igUMBsOjlAA9C9gBkTLmCHs4iV2xdo';
 
   Future<void> fetchImages(String description) async {
     try {
