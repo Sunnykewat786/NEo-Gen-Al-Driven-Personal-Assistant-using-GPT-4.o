@@ -21,7 +21,7 @@ class SummarizeController extends GetxController {
     // IMPORTANT: Use secure method to store and retrieve your API key.
     _model = GenerativeModel(
       model: modelName,
-      apiKey: 'AIzaSyBptc2E1WdoyDYTQg1Au4Hf_gxL80w0UD4', // Replace securely
+      apiKey: '', // Replace securely
     );
   }
 
