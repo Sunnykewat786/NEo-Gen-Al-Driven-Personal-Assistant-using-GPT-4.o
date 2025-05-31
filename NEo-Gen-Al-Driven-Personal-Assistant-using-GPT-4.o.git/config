@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/Sunnykewat786/NEo-Gen-Al-Driven-Personal-Assistant-using-GPT-4.o.git
+	fetch = +refs/*:refs/*
+	mirror = true
