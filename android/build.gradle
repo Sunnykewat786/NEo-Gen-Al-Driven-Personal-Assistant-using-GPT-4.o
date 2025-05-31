@@ -1,0 +1,57 @@
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+/*
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+subprojects {
+    // Fix for image_gallery_saver
+    if (it.name == 'image_gallery_saver') {
+        it.afterEvaluate {
+            android {
+                namespace 'com.example.imagegallerysaver'
+            }
+        }
+    }
+    
+    // General fix for all library plugins
+    project.plugins.withId('com.android.library') {
+        android {
+            namespace 'com.example.neo_ai_assistant.plugins'
+        }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+*/

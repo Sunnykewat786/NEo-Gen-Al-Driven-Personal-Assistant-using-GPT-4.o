@@ -1,0 +1,300 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.neo_ai_assistant"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:2:1-62
+11-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:3:1-66
+12-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:3:18-64
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:4:1-72
+13-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:4:18-70
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:5:1-75
+14-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:5:18-73
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:6:1-72
+15-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:6:18-70
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:7:1-74
+16-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:7:18-72
+17    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+17-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:8:1-72
+17-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:8:18-69
+18    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+18-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:9:1-69
+18-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:9:18-67
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:10:1-76
+19-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:10:18-74
+20    <!--
+21      Required to query activities that can process text, see:
+22         https://developer.android.com/training/package-visibility and
+23         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+24
+25         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+26    -->
+27    <queries>
+27-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:32:1-37:11
+28        <intent>
+28-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:33:1-36:10
+29            <action android:name="android.intent.action.PROCESS_TEXT" />
+29-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:34:1-60
+29-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:34:9-58
+30
+31            <data android:mimeType="text/plain" />
+31-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:35:1-38
+31-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:35:7-36
+32        </intent>
+33        <intent>
+33-->[:file_picker] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:9-12:18
+34            <action android:name="android.intent.action.GET_CONTENT" />
+34-->[:file_picker] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:13-72
+34-->[:file_picker] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\file_picker\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:21-69
+35
+36            <data android:mimeType="*/*" />
+36-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:35:1-38
+36-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:35:7-36
+37        </intent>
+38    </queries>
+39
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[:flutter_local_notifications] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\flutter_local_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:5-66
+40-->[:flutter_local_notifications] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\flutter_local_notifications\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:7:22-63
+41
+42    <permission
+42-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.neo_ai_assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.neo_ai_assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+47
+48    <application
+49        android:name="android.app.Application"
+49-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:11:47-80
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.15.0] C:\Users\Rahul\.gradle\caches\transforms-3\e12ebe9d252a80ac4cabf2c3ed97d6a5\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+51        android:extractNativeLibs="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:11:81-115
+53        android:label="neo_ai_assistant" >
+53-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:11:14-46
+54        <activity
+54-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:1-22:12
+55            android:name="com.example.neo_ai_assistant.MainActivity"
+55-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:11-39
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:154-304
+57            android:exported="true"
+57-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:40-63
+58            android:hardwareAccelerated="true"
+58-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:305-339
+59            android:launchMode="singleTop"
+59-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:64-94
+60            android:taskAffinity=""
+60-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:95-118
+61            android:theme="@style/LaunchTheme"
+61-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:119-153
+62            android:windowSoftInputMode="adjustResize" >
+62-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:12:340-382
+63
+64            <!--
+65      Specifies an Android theme to apply to this Activity as soon as
+66                 the Android process has started. This theme is visible to the user
+67                 while the Flutter UI initializes. After that, this theme continues
+68                 to determine the Window background behind the Flutter UI.
+69            -->
+70            <meta-data
+70-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:17:1-107
+71                android:name="io.flutter.embedding.android.NormalTheme"
+71-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:17:12-67
+72                android:resource="@style/NormalTheme" />
+72-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:17:68-105
+73
+74            <intent-filter>
+74-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:18:1-21:17
+75                <action android:name="android.intent.action.MAIN" />
+75-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:19:1-52
+75-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:19:9-50
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:20:1-60
+77-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:20:11-58
+78            </intent-filter>
+79        </activity>
+80        <!--
+81      Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+84-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:25:1-63
+85            android:name="flutterEmbedding"
+85-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:25:12-43
+86            android:value="2" />
+86-->D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\android\app\src\main\AndroidManifest.xml:25:44-61
+87
+88        <provider
+88-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-17:20
+89            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+89-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-82
+90            android:authorities="com.example.neo_ai_assistant.flutter.image_provider"
+90-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-74
+91            android:exported="false"
+91-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:13-37
+92            android:grantUriPermissions="true" >
+92-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-47
+93            <meta-data
+93-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-16:75
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-67
+95                android:resource="@xml/flutter_image_picker_file_paths" />
+95-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:17-72
+96        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+97        <service
+97-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-31:19
+98            android:name="com.google.android.gms.metadata.ModuleDependencies"
+98-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:13-78
+99            android:enabled="false"
+99-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:13-36
+100            android:exported="false" >
+100-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:13-37
+101            <intent-filter>
+101-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:13-26:29
+102                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+102-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:17-94
+102-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:25-91
+103            </intent-filter>
+104
+105            <meta-data
+105-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:13-30:36
+106                android:name="photopicker_activity:0:required"
+106-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:17-63
+107                android:value="" />
+107-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:17-33
+108        </service>
+109        <!--
+110           Declares a provider which allows us to store files to share in
+111           '.../caches/share_plus' and grant the receiving action access
+112        -->
+113        <provider
+113-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-21:20
+114            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+114-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-77
+115            android:authorities="com.example.neo_ai_assistant.flutter.share_provider"
+115-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-74
+116            android:exported="false"
+116-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:13-37
+117            android:grantUriPermissions="true" >
+117-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:13-47
+118            <meta-data
+118-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-16:75
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:17-67
+120                android:resource="@xml/flutter_share_file_paths" />
+120-->[:image_picker_android] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\image_picker_android\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:17-72
+121        </provider>
+122        <!--
+123           This manifest declared broadcast receiver allows us to use an explicit
+124           Intent when creating a PendingItent to be informed of the user's choice
+125        -->
+126        <receiver
+126-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:9-32:20
+127            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+127-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:13-82
+128            android:exported="false" >
+128-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:13-37
+129            <intent-filter>
+129-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:13-31:29
+130                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+130-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:17-65
+130-->[:share_plus] D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:25-62
+131            </intent-filter>
+132        </receiver>
+133
+134        <provider
+134-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+135            android:name="androidx.startup.InitializationProvider"
+135-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:25:13-67
+136            android:authorities="com.example.neo_ai_assistant.androidx-startup"
+136-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:26:13-68
+137            android:exported="false" >
+137-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:27:13-37
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Rahul\.gradle\caches\transforms-3\cd893d8cb0ead3561ec33a9d8d1a2531\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+141            <meta-data
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+142                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+143                android:value="androidx.startup" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+144        </provider>
+145
+146        <uses-library
+146-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+147            android:name="androidx.window.extensions"
+147-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+148            android:required="false" />
+148-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+149        <uses-library
+149-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+150            android:name="androidx.window.sidecar"
+150-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+151            android:required="false" />
+151-->[androidx.window:window:1.2.0] C:\Users\Rahul\.gradle\caches\transforms-3\15e9e38b99d347b54bd677b103a42c10\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+152
+153        <receiver
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+154            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+155            android:directBootAware="false"
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+156            android:enabled="true"
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+157            android:exported="true"
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+158            android:permission="android.permission.DUMP" >
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+160                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+163                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+166                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+167            </intent-filter>
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+169                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Rahul\.gradle\caches\transforms-3\efafe61e81c78dd0e83a4f0ddff6761c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+170            </intent-filter>
+171        </receiver>
+172    </application>
+173
+174</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.snnafi.media_store_plus-release-25:/drawable/notification_icon_background.xml",
+        "source": "com.snnafi.media_store_plus-core-1.13.1-10:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.snnafi.media_store_plus-release-25:/drawable/notification_tile_bg.xml",
+        "source": "com.snnafi.media_store_plus-core-1.13.1-10:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.snnafi.media_store_plus-release-25:/drawable/notification_bg_low.xml",
+        "source": "com.snnafi.media_store_plus-core-1.13.1-10:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.snnafi.media_store_plus-release-25:/drawable/notification_bg.xml",
+        "source": "com.snnafi.media_store_plus-core-1.13.1-10:/drawable/notification_bg.xml"
+    }
+]

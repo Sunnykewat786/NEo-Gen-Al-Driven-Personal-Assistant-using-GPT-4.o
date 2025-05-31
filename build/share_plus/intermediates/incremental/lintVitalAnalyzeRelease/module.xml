@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Rahul\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android"
+    name=":share_plus"
+    type="LIBRARY"
+    maven="dev.fluttercommunity.plus.share:share_plus:"
+    agpVersion="8.3.0"
+    buildFolder="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\share_plus"
+    bootClassPath="C:\Users\Rahul\AppData\Local\Android\sdk\platforms\android-34\android.jar;C:\Users\Rahul\AppData\Local\Android\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

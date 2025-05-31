@@ -1,0 +1,38 @@
+<variant
+    name="release"
+    package="com.example.neo_ai_assistant"
+    minSdkVersion="21"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
+    manifestMergeReport="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.3.0;C:\SDK\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out">
+  <buildFeatures
+      coreLibraryDesugaring="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\release\java;src\main\kotlin;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\intermediates\javac\release\compileReleaseJavaWithJavac\classes;D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\tmp\kotlin-classes\release;D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\kotlinToolingMetadata;D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\processReleaseResources\R.jar"
+      type="MAIN"
+      applicationId="com.example.neo_ai_assistant"
+      generatedSourceFolders="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="D:\Test Projects\App Project\neo_ai_assistant\neo_ai_assistant_new\neo_ai_assistant_NA (9)\build\app\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\Rahul\.gradle\caches\transforms-3\5a967d7abf7c13da21f615c61f271845\transformed\desugar_jdk_libs_configuration-2.1.4-desugar-lint.txt;C:\Users\Rahul\.gradle\caches\transforms-3\9d4b3293564d438835aeac1fa7d25ad1\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
